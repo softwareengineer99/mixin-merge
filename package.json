@@ -1,0 +1,44 @@
+{
+  "name": "object-merge",
+  "version": "1.0.1",
+  "description": "mixin() object mixin utility function",
+  "keywords": [
+    "util","mixin","merge","object"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/softwareengineer99/object-merge.git"
+  },
+  "bugs": {
+    "url": "http://github.com/softwareengineer99/object-merge/issues"
+  },
+  "author": {
+    "name": "Frank Mashraqi",
+    "email": "frank@mashraqi.com",
+    "url": "http://mashraqi.com/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./index",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "chai": "1.x.x"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "readme": "# object-merge\n\nCreates a new mixin object c which has object a's own properties and object b's . \n\n## Install\n\n    $ npm install object-merge\n\n
+  ## Usage\n\n```javascript\nvar mixin=require('object-merge');\nObject.prototype.foobar=function(){};var a = { foo: 'bar' },\nb = { bar: 'foos' }; \nmixin(a, b);\n// => { foo: 'bar', bar: 'baz' }```\n\n## Tests\n\n    $ npm install\n    $ npm test\n\n[![Build Status](https://secure.travis-ci.org/mashraqi/object-merge.png)](http://travis-ci.org/mashraqi/utils-merge)\n\n## Credits\n\n  - [Frank Mashraqi](http://github.com/softwareengineer99)\n\n## License\n\n[The MIT License](http://opensource.org/licenses/MIT)\n\nCopyright (c) 2013 Frank Mashraqi <[http://mashraqi.com/](http://mashraqi.com/)>\n",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/softwareengineer99/object-merge",
+  "_id": "object-merge@1.0.1",
+  "_from": "object-merge@"
+}
