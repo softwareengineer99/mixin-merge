@@ -23,7 +23,7 @@ mixin(a, b);
     $ npm install
     $ npm test
 
-[![Build Status](https://secure.travis-ci.org/mashraqi/mixin-merge.png)](http://travis-ci.org/mashraqi/mixin-merge)
+[![Build Status](https://secure.travis-ci.org/softwareengineer99/mixin-merge.png)](http://travis-ci.org/softwareengineer99/mixin-merge)
 
 ## Credits
 
