@@ -1,21 +1,21 @@
-# object-merge
+# mixin-merge
 
 Creates a new mixin object c which has object a's own properties and object b's own properties
 
 ## Install
 
-    $ npm install object-merge
+    $ npm install mixin-merge
 
 ## Usage
 
 ```javascript
-mixin=require('object-merge')
+mixin=require('mixin-merge')
 Object.prototype.foobar=function(){}
 var a = { foo: 'bar' },
     b = { bar: 'foos' };
 
 mixin(a, b);
-// => { foo: 'bar', bar: 'baz' }
+// => { bar: 'foos', foo: 'bar' }
 ```
 
 ## Tests
@@ -23,7 +23,7 @@ mixin(a, b);
     $ npm install
     $ npm test
 
-[![Build Status](https://secure.travis-ci.org/mashraqi/object-merge.png)](http://travis-ci.org/mashraqi/object-merge)
+[![Build Status](https://secure.travis-ci.org/mashraqi/mixin-merge.png)](http://travis-ci.org/mashraqi/mixin-merge)
 
 ## Credits
 
