@@ -1,6 +1,6 @@
 {
   "name": "mixin-merge",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "merge own properties of two objects into a third object",
   "keywords": [
     "util","mixin","merge","object"
@@ -38,6 +38,6 @@
   "readme": "# mixin-merge\n\nCreates a new mixin object c which has object a's own properties and object b's . \n\n## Install\n\n    $ npm install mixin-merge\n\n## Usage\n\n```javascript\nvar mixin=require('mixin-merge');\nObject.prototype.foobar=function(){};var a = { foo: 'bar' },\nb = { bar: 'foos' }; \nmixin(a, b);\n// => { foo: 'bar', bar: 'baz' }```\n\n## Tests\n\n    $ npm install\n    $ npm test\n\n[![Build Status](https://secure.travis-ci.org/softwareengineer99/mixin-merge.png)](http://travis-ci.org/softwareengineer99/mixin-merge)\n\n## Credits\n\n  - [Frank Mashraqi](http://github.com/softwareengineer99)\n\n## License\n\n[The MIT License](http://opensource.org/licenses/MIT)\n\nCopyright (c) 2013 Frank Mashraqi <[http://mashraqi.com/](http://mashraqi.com/)>\n",
   "readmeFilename": "README.md",
   "homepage": "https://github.com/softwareengineer99/mixin-merge",
-  "_id": "mixin-merge@1.0.1",
+  "_id": "mixin-merge@1.0.2",
   "_from": "mixin-merge@"
 }
